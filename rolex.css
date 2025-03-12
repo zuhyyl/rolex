@@ -1,0 +1,1000 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+
+}  
+
+
+
+
+
+
+                      /* --------------------header------------------- */
+
+
+
+
+
+
+
+.header{
+    background-color: #0C422A;
+    color: white;
+    width: 100%;
+    width: 100%;
+    position: sticky;
+    transition: top 0.3s;
+    
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    height: 90px;
+    z-index: 2;
+    
+}
+
+
+.nill{
+    padding-left: 6.8em;
+    padding-top: 2.2em;
+    padding-bottom: 2.3em;
+
+}
+
+
+
+.firstmenu:hover{
+    color: #61BD93;
+    cursor: pointer;
+    transition-duration: 400ms, 400ms;
+    
+    
+
+    
+ 
+}
+
+
+#Menuimg{
+    margin-right: 8px;
+      
+}
+
+
+.Menu{
+    margin-right: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}  
+
+
+
+
+
+                  /* ---------------------- super-sub ------------------- */
+
+
+
+
+
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 6em;
+    letter-spacing: 0.3px;
+    font-size: 17px;
+    line-height: 13px;
+}
+
+
+.toplogo{
+    padding-top: 4px;
+    padding-left: 20em;
+    width: 43px;
+    height: 46px;
+    
+}
+
+
+.toplogo:hover{
+    cursor: pointer;
+}
+
+
+.spanone{
+    padding-right: 2.1em;
+     
+}
+
+
+.spanone:hover{
+    color: #61BD93;
+    cursor: pointer;
+    transition-duration: 400ms, 400ms;
+}
+
+
+.spantwo{
+    padding-right: 2.1em;
+    
+}
+
+
+.spantwo:hover{
+    color: #61BD93;
+    cursor: pointer;
+    transition-duration: 400ms, 400ms;
+}
+
+
+.spanthree:hover{
+    color: #61BD93;
+    cursor: pointer;
+    transition-duration: 400ms, 400ms;
+}
+
+
+#spanone{
+    padding-left: 1em;
+    margin-right: 5px;
+}
+
+
+#spantwo{
+    padding-left: 1em;
+    margin-right: 5px;
+}
+
+
+#spanthree{
+    margin-right: 5px;
+}
+
+
+
+
+                    /* -----------------top-next---------------------*/
+
+
+
+
+.video{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.videoo{
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+    top: 0;
+}
+
+
+.videosubdiv{
+    z-index: 2;
+    position: relative;
+    color: white;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    opacity: 0.8;
+}
+
+
+.pp{
+    font-size: 32px;
+    margin-bottom: 9px;
+    font-feature-settings: "c2sc", "smcp"; 
+    font-family: Open sans,sans-serif;
+    letter-spacing: 3px;
+}
+
+
+.text{
+    font-size: 83.1px;
+    margin-top: 0;
+    font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;;
+    letter-spacing: 3px;
+    
+}
+
+
+
+
+
+
+
+                 /* -------------------------div-next------------------------ */
+
+
+
+
+.neo-super-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+
+.neo-heading{
+    color: #116740;
+    margin-top: 0;
+    font-size: 44px;
+    padding-left: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4em;
+
+}
+
+
+
+
+
+
+                /* ------------animartion------------------- */
+
+
+
+
+.neo-heading{
+    animation: neo-headingAnimation;
+    animation-timeline: view(60% 0%);
+}
+@keyframes neo-headingAnimation{
+    from{
+        opacity: 0;
+        scale: 0.3;
+    }to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+
+.neo-p{
+    color: rgb(85, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 18em;
+    font-size: 17.4px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    margin: 0;
+    padding-bottom: 87px;
+    padding-top: 7px;
+    font-weight: lighter;
+}
+
+
+
+
+
+                            /* ----------animation------------ */
+
+
+
+.neo-p{
+    animation: neo-pAnimation;
+    animation-timeline: view(60% 0%);                                                       
+}
+@keyframes neo-pAnimation{
+    from{
+        opacity: 0;
+        scale: 0.3;
+    }to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+
+.neo-text-img{
+    color: #116740;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+
+
+
+
+                            /* ----------animation------------------ */
+
+
+
+
+
+
+.neo-text-img{
+    animation: neo-text-imgAnimation;
+    animation-timeline: view(60% 0%);                                                       
+}
+@keyframes neo-text-imgAnimation{
+    from{
+        opacity: 0;
+        scale: 0.3;
+    }to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+
+
+.neo-text-img:hover{
+    color: black;
+    cursor: pointer;
+    transition-duration: 400ms, 400ms;
+}
+
+
+
+
+
+
+
+                            /* -------------------next navbar------------------ */
+
+
+
+
+
+
+
+.secondmargin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    top: 0;
+    position: sticky;
+    z-index: 3;
+    background-color: white;
+    height: 5em;
+      
+}
+
+
+.secondnavdiv{
+    display: flex;
+    gap: 40px;
+    margin-left: 19em;
+    
+}
+
+
+.All{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+}
+
+
+.All:hover{
+    cursor: pointer;
+    color: #116740;
+    transition-duration: 400ms,400ms;
+
+}
+
+
+.button-two{
+    background-color: #116740;
+    border-radius: 15px;
+    color: rgb(235, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    font-size: 0.75rem;
+    font-weight: 600;
+    height: 1.875rem;
+    padding-inline: 1.5625rem;
+    margin-left: 4em;
+
+}
+
+
+.button-two:hover{
+    cursor: pointer;
+    background-color: #0C422A;
+    transition-duration: 400ms,400ms;
+    
+}
+
+
+
+
+
+
+
+                       /* --------------------image div------------------- */
+
+
+
+
+
+
+.o:hover{
+    cursor: pointer;
+    /* transform: scale(1.01);
+    transition: 400ms;
+    width: 100%; */
+    
+}
+
+
+.watch-one{
+    width: 100%;
+    height: 90vh;
+    z-index: 0;
+    position: absolute;
+    
+}
+
+
+.divwatch{
+    color: white;
+    z-index: 1;
+    padding: 26em 0em 0em 6em;
+     
+}
+
+
+.heading-one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-bottom: 17px;
+    
+}
+
+
+.p-one-watch{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    line-height: 1.7;
+    margin: 0em 0em 0.5em 0em;
+    letter-spacing: 1px;
+
+}
+
+
+.Discover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+
+
+.Discover:hover{
+    cursor: pointer;
+    color: #b2bab7;
+    transition: 400ms;
+    
+}
+
+
+
+                     /* --------------animation----------------- */
+
+
+
+.divwatch{
+    animation: divwatchAnimation;
+    animation-timeline: view(60% 20%);
+                                                           
+}
+@keyframes divwatchAnimation{
+    from{
+        opacity: 0;
+        scale: 0.1;
+    }to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.io:hover{
+    cursor: pointer;
+    /* transform: scale(1.01);
+    transition: 400ms;
+    width: 100%; */
+
+}
+
+
+.iwatch-one{
+    width: 100%;
+    height: 90vh;
+    z-index: 0;
+    position: absolute;
+    
+}
+
+
+.idivwatch{
+    color: white;
+    z-index: 1;
+    padding: 24em 0em 0em 6em;
+    
+}
+
+
+.iheading-one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-bottom: 17px;
+    
+}
+
+
+.ip-one-watch{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    line-height: 1.7;
+    margin: 0em 0em 0.5em 0em;
+    letter-spacing: 1px;
+
+}
+
+
+.iDiscover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+}
+
+
+.iDiscover:hover{
+    cursor: pointer;
+    color: #b2bab7;
+    transition: 400ms;
+    
+}
+
+
+.idivwatch{
+    animation: divwatchAnimation;
+    animation-timeline: view(60% 20%);
+                                                           
+}
+@keyframes divwatchAnimation{
+    from{
+        opacity: 0;
+        scale: 0.1;
+    }to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+                  /* -------- black color--------- */
+
+
+
+
+.bdivwatch{
+    color: black;
+    z-index: 1;
+    padding: 24em 0em 0em 6em;
+
+}
+
+
+.bdivwatch{
+    animation: bdivwatchAnimation;
+    animation-timeline: view(60% 20%);
+                                                           
+}
+@keyframes bdivwatchAnimation{
+    from{
+        opacity: 0;
+        scale: 0.1;
+    }to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+
+       /* ----------------img end------------------- */
+
+
+
+
+
+
+.smain{
+    margin-top: 8em;
+    padding-left: 6.5em;
+    padding-bottom: 3em;
+}
+
+
+.ssub{
+    padding-bottom: 2.5em;
+}
+
+
+.sone{
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    
+}
+
+
+.sone:hover{
+    color: #38a272;
+    cursor: pointer;
+    transition: 200ms 200ms;
+}
+
+
+.stwo{
+    text-decoration: none;
+    color: rgb(111, 111, 111);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.sthree{
+    color: #38a272;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    
+}
+
+
+.sonn{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.soon{
+    color: #116740;
+    padding-left: 1.5em;
+    
+}
+
+
+.soon:hover{
+    color: black;
+    cursor: pointer;
+    transition: 200ms 200ms;
+}
+
+
+
+
+                              /* -------------footer------------- */
+
+
+                              
+
+
+.footer{
+    background-color: #F8F8F8;
+    display: flex;
+}
+
+
+.rolexlast{
+    margin-left: 4.8em;
+    padding-top: 4em;
+}
+
+
+.roleximg{
+    width: 9vw;
+    height: 11vh;
+}
+
+
+.rrdiv{
+    display: flex;
+    margin-left: 9.5em;
+    line-height: 23px;
+    padding: 66px 0 22px 0;
+    gap: 3em;
+    
+}
+
+
+.rmain{
+    margin-bottom: 3px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+
+}
+
+
+.rmain:hover{
+    color: #116740;
+    cursor: pointer;
+    transition: 200ms 200ms;
+}
+
+
+.relon{
+    text-decoration: none;
+    color: black;
+    font-size: 15x;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    
+}
+
+
+.relon:hover{
+    color: #116740;
+    cursor: pointer;
+    transition: 200ms 200ms;
+}
+
+
+
+.elon{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+
+
+.elon:hover{
+    cursor: pointer;
+    color: #116740;
+    transition: 200ms 200ms;
+}
+
+
+
+
+
+                      /* ---------------hr-------------- */
+
+
+
+
+
+
+.hrone{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 70em;
+}
+
+
+.lastend{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.r{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.r:hover{
+    color: #116740;
+    transition: 200ms 200ms;
+    cursor: pointer;
+}
+
+
+
+                                 /*-----------button----------- */
+
+
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+  
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+  
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+  
+input:checked + .slider {
+    background-color: black;
+}
+  
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+  
+.label-text {
+    margin-left: 8px;
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.label-text:hover{
+    cursor: pointer;
+    color: #116740;
+    transition: 200ms 200ms;
+}
+.tabel-text{
+    margin-left: 8px;
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.tabel-text:hover{
+    cursor: pointer;
+    color: #116740;
+    transition: 200ms 200ms;
+}
+
+
+
+
+
+
+                               /* ---------------second footer------------ */
+
+
+
+
+
+
+.iconic:hover{
+    cursor: pointer;
+}
+
+
+.footerimg{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    display: block;
+
+}
+
+
+.footerinfo{
+    z-index: 1;
+    color: white;
+       
+}
+
+
+#for{
+    margin: 0;
+    padding-top: 5em;
+    padding-left: 13.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+
+#you{
+    margin: 0;
+    padding-left: 31em;
+    font-size: 22px;
+    padding-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+
+
+#you:hover{
+    color: #D3D1D0;
+    cursor: pointer;
+    transition: 200ms 200ms;
+}
+
+
+
+
+
+
+
+
+
+                                    /* ---------end---------- */
